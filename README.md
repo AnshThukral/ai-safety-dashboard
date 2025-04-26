@@ -1,5 +1,8 @@
 🚨 ***AI Safety Incident Dashboard*** 🚨
 
+***LIVE LINK***
+***https://anshthukral.github.io/ai-safety-dashboard/***
+
 Welcome to the AI Safety Incident Dashboard! This web-based platform is designed to manage and track AI safety incidents. With an intuitive interface, users can efficiently view, filter, and add incidents, while sorting them by severity and date.
 
 ***Table of Contents:***
