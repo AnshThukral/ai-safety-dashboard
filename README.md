@@ -1,5 +1,5 @@
 🚨 AI Safety Incident Dashboard 🚨
-Welcome to the AI Safety Incident Dashboard! This is a web-based platform designed for managing and tracking AI safety incidents. With an intuitive interface, users can efficiently view, filter, and add incidents, while sorting them by severity and date.
+Welcome to the AI Safety Incident Dashboard! This web-based platform is designed to manage and track AI safety incidents. With an intuitive interface, users can efficiently view, filter, and add incidents, while sorting them by severity and date.
 
 Table of Contents:
 Installation
@@ -14,7 +14,7 @@ Challenges
 
 Contact
 
-Installation
+🚀 Installation
 To get started with the project locally, follow these simple steps:
 
 Clone the repository:
@@ -44,7 +44,7 @@ npm start
 View the application:
 Open your browser and visit http://localhost:3000 to see the AI Safety Incident Dashboard in action.
 
-Technologies Used
+🛠️ Technologies Used
 Frontend: React.js – A powerful JavaScript library for building user interfaces.
 
 State Management: React's useState – Utilized for managing dynamic states like incidents, filters, and mode toggling.
@@ -53,41 +53,39 @@ Styling: Tailwind CSS – A utility-first CSS framework used to create responsiv
 
 Build Tool: Create React App (CRA) – Used to quickly set up and configure the project for efficient development.
 
-How to Run
-Before running the app, make sure you have Node.js and npm installed on your system.
+🖥️ How to Run
+Ensure you have Node.js and npm installed on your system.
 
 Clone the repository and navigate to the project directory.
 
-Run npm install to install all necessary dependencies.
+Install dependencies using npm install.
 
-Use npm start to spin up the development server.
+Start the development server with npm start.
 
-Head over to http://localhost:3000 in your browser to interact with the app.
+Open http://localhost:3000 in your browser to interact with the app.
 
-Design Decisions
-User-Centered Design:
-The dashboard is designed to prioritize ease of use and clarity. We focused on making the interface intuitive so users can easily manage AI safety incidents without a steep learning curve.
+💡 Design Decisions
+🔍 User-Centered Design:
+Focused on an intuitive interface to ensure users can easily manage AI safety incidents without a steep learning curve.
 
-Efficient State Management:
-We leveraged React's built-in useState hook for managing the state of incidents, filters, and sorting options. This ensures that the app remains responsive and performs well even with a larger number of incidents.
+⚡ Efficient State Management:
+Leveraged React's useState hook to manage states like incidents, filters, and sorting. This approach ensures smooth performance, even with a larger number of incidents.
 
-Tailwind CSS for Responsive Layout:
-We utilized Tailwind CSS for its utility-first approach, which allowed us to quickly build responsive and clean layouts. With minimal custom CSS, the design is fully customizable, ensuring that the app works well across all screen sizes.
+🎨 Tailwind CSS for Responsive Layout:
+Utilized Tailwind CSS for its utility-first approach, allowing for quick, responsive, and clean layouts. The design is highly customizable and works seamlessly across various screen sizes.
 
-Clear Incident Severity Classification:
-A major focus was to make the severity classification of each incident clear and easily distinguishable. The use of color-coded severity labels helps users quickly understand the urgency of each incident, ensuring that important issues stand out at a glance.
+⚠️ Clear Incident Severity Classification:
+The severity of each incident is color-coded to make it easy for users to distinguish between different levels of urgency. This design choice helps incidents stand out at a glance.
 
+🏗️ Challenges
+🔄 State Management for Filters and Sorting:
+Managing the state for filtering incidents by severity and sorting them by date was a challenge. Efficient handling of state, such as minimizing unnecessary re-renders, was key to maintaining responsiveness.
 
-Challenges
-Smooth Theme Switcher Implementation:
-One of the main challenges was implementing a theme switcher that transitions seamlessly between night and day modes without affecting the app's performance. By utilizing Tailwind CSS's built-in dark mode support, we were able to achieve this effect efficiently.
+📊 User-Friendly UI for Incident Display:
+Displaying incidents in a clear, easily digestible format was crucial. The UI includes labeled severity and reported dates to help users quickly comprehend incident details.
 
-State Management for Filters and Sorting:
-Managing the state for filtering incidents by severity and sorting by date posed some challenges in maintaining performance and responsiveness. We ensured that the state was handled efficiently by keeping it local and reducing unnecessary re-renders.
-
-User-Friendly UI for Incident Display:
-Displaying incidents in a user-friendly format was essential. We designed the layout to include clear labels for severity and reported dates, allowing users to quickly grasp important details at a glance.
-
-Contact
+📬 Contact
 Created by: Ansh Thukral
+
 Feel free to reach out if you have any questions, suggestions, or feedback!
+
